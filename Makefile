@@ -1,4 +1,4 @@
-obj-m := project.o
+obj-m := process_memory_module.o
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 
