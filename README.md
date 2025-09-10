@@ -24,3 +24,29 @@ This Linux kernel module demonstrates the creation of multiple kernel threads (c
 
 1. Ensure you have the Linux kernel headers installed.
 2. Run `make` to build the kernel module.
+
+### 🔧 Build the Module
+
+```bash
+make
+```
+
+### 📥 Insert the Module
+
+```bash
+sudo insmod project.ko
+```
+
+### 📤 Remove the Module
+
+```bash
+sudo rmmod project
+```
+
+### 🧹 Clean Build Files
+
+```bash
+make clean
+```
+
+---
