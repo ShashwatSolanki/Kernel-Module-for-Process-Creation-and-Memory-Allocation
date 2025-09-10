@@ -1,4 +1,4 @@
-obj-m := OS-mini_project.o
+obj-m := project.o
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 
