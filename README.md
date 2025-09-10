@@ -34,13 +34,13 @@ make
 ### 📥 Insert the Module
 
 ```bash
-sudo insmod project.ko
+sudo insmod process_memory_module.ko
 ```
 
 ### 📤 Remove the Module
 
 ```bash
-sudo rmmod project
+sudo rmmod process_memory_module
 ```
 
 ### 🧹 Clean Build Files
